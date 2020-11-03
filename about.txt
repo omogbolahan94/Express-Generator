@@ -1,0 +1,18 @@
+*** This project is about making an API call through express 
+*** which interacts with MongoDB database through the Mongoose connector
+*** app.js is where everything started from and it is the main file
+*** bin folder contains a js file which is where the server is configured(localhost and port number)
+*** Everything was scaffolded for us by Express-Generator apart from the dishRourer, leaderRouter and promoRouter
+NOTE: the route directory was also scaffolded with the index.js and user.js file in it by express generator
+
+*** if client goes to: http://localhost:3000, the index.html file will be loaded from the public folder and this is posible by the line: app.use(express.static(path.join(__dirname, 'public'))); in app.js
+REMEMBER: we have index.html and about.html as static files in the public folder scaffolded for us by express generator
+
+THE FOLLOWING ARE THE ADDRESS TO THE STATIC FILES
+http://localhost:3000/index.html
+http://localhost:3000/about.html
+
+FOR THE ROUTER ADDRESS
+http://localhost:3000/dishes or http://localhost:3000/dishes/param (if dishes has parameter)
+http://localhost:3000/leaders or http://localhost:3000/leaders/param (if leaders has parameter)
+http://localhost:3000/promo or http://localhost:3000/promo/param (if promo has parameter)
